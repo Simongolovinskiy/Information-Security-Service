@@ -1,12 +1,12 @@
 # Information-Security-Service
 
-![Repository Top Language](https://img.shields.io/github/languages/top/Simongolovinskiy/Electronic-gallery)
+![Repository Top Language](https://img.shields.io/github/languages/top/Simongolovinskiy/Information-Security-Service)
 ![Codacy Grade](https://img.shields.io/codacy/grade/c9467ed47e064b1981e53862d0286d65)
-![Github Repository Size](https://img.shields.io/github/repo-size/Simongolovinskiy/Electronic-gallery)
-![Lines of code](https://img.shields.io/tokei/lines/github/Simongolovinskiy/Electronic-gallery)
+![Github Repository Size](https://img.shields.io/github/repo-size/Simongolovinskiy/Information-Security-Service)
+![Lines of code](https://img.shields.io/tokei/lines/github/Simongolovinskiy/Information-Security-Service)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![GitHub last commit](https://img.shields.io/github/last-commit/Simongolovinskiy/Electronic-gallery)
-![GitHub contributors](https://img.shields.io/github/contributors/Simongolovinskiy/Electronic-gallery)
+![GitHub last commit](https://img.shields.io/github/last-commit/Simongolovinskiy/Information-Security-Service)
+![GitHub contributors](https://img.shields.io/github/contributors/Simongolovinskiy/Information-Security-Service)
 ![Simply the best ;)](https://img.shields.io/badge/simply-the%20best%20%3B%29-orange)
 
 <img align="right" src="./images/picture.png">
