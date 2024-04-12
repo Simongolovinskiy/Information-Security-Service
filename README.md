@@ -9,7 +9,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Simongolovinskiy/Information-Security-Service)
 ![Simply the best ;)](https://img.shields.io/badge/simply-the%20best%20%3B%29-orange)
 
-<img align="right" src="./images/picture.png">
+<img align="right" src="./img/tensorflow.png">
 
 ## Task description
 
@@ -31,4 +31,4 @@ in order to apply foresight.
 
 ## The example of our classification model is on screenshot(plot with data)
 
-<img src="./images/result.png">
+<img src="./img/result.png">
