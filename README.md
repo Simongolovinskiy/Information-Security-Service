@@ -1,2 +1,34 @@
 # Information-Security-Service
-Information-Security-Service Service of neural network expert systems for the Diptych of information security in AIS
+
+![Repository Top Language](https://img.shields.io/github/languages/top/Simongolovinskiy/Electronic-gallery)
+![Codacy Grade](https://img.shields.io/codacy/grade/c9467ed47e064b1981e53862d0286d65)
+![Github Repository Size](https://img.shields.io/github/repo-size/Simongolovinskiy/Electronic-gallery)
+![Lines of code](https://img.shields.io/tokei/lines/github/Simongolovinskiy/Electronic-gallery)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub last commit](https://img.shields.io/github/last-commit/Simongolovinskiy/Electronic-gallery)
+![GitHub contributors](https://img.shields.io/github/contributors/Simongolovinskiy/Electronic-gallery)
+![Simply the best ;)](https://img.shields.io/badge/simply-the%20best%20%3B%29-orange)
+
+<img align="right" src="./images/picture.png">
+
+## Task description
+
+The system being developed should, based on modern artificial intelligence methods, quickly
+identify and respond to attacking traffic and report it
+The training of the system is supposed to be based on "captured" and processed real-time traffic.
+Based on the results of the traffic analysis, the system should report the identified threats by e-mail.
+In the future, there will be a connection to the control console in order to view the identified threats
+in order to apply foresight.
+
+
+## Solution notes
+
+- :trident: clean architecture
+- :book: standard python project layout 
+- :card_file_box: Fully included web app with neural model based on tensorflow and sklearn
+
+## HOWTO
+
+## The example of our classification model is on screenshot(plot with data)
+
+<img src="./images/result.png">
