@@ -1,0 +1,24 @@
+.wrapper{
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  
+}
+
+.App{
+  position: relative;
+  overflow-x: hidden;
+}
+
+.App::after{
+  content: "";
+  position: absolute;
+  right: -300px;
+  top: -250px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 9999px;
+  background-color: #f86029;
+  background: url("../src/images/back.gif") no-repeat center / contain, #f86029;
+  background-blend-mode: screen;
+}

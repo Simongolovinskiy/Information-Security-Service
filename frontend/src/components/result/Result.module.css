@@ -1,0 +1,10 @@
+.resultBody{
+    padding: 50px 0;
+}
+
+.resultBody > h2{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
