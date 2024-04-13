@@ -1,0 +1,33 @@
+.headerBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu > li > a{
+    color: #030303;
+}
+
+
+.menu > li > a:hover{
+    text-decoration: underline;
+}
+
+.fireTel{
+    border: 1px solid #4E76B1;
+    padding: 16px;
+    background-color: #4E76B1;
+    color: white;
+}

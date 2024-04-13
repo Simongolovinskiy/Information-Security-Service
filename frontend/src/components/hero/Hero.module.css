@@ -1,0 +1,55 @@
+.heroBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0;
+    
+
+}
+
+.heroTextBox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heroTextBox > h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.heroTextBox > p{
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.form > input{
+    padding: 10px;
+    outline: none;
+    border: 2px solid ;
+    width: 100%;
+}
+
+.form > button {
+    padding: 10px;
+    outline: none;
+    border: 2px solid #f86029;
+    background-color: #f86029;
+    color: #fff;
+    cursor: pointer;
+    width: 40%;
+}
+.form > button:disabled {
+    border: 2px solid #f8602900;
+    background-color: #f860299d;
+}
+
+.imageBox{
+    position: relative;
+    z-index: 12;
+}
