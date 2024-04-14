@@ -140,3 +140,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+
+# Email
+
+EMAIL_LOGIN = env.str("EMAIL_LOGIN")
+EMAIL_PASSWORD = env.str("EMAIL_PASSWORD")
+SMTP_HOST = env.str("SMTP_HOST")
+SMTP_PORT = env.str("SMTP_PORT")
