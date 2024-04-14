@@ -8,7 +8,7 @@ export const useGetResult = () => {
     return useQuery({
         queryKey: ["results"],
         queryFn: async () => {
-            const res = await axios.get("http://localhost:8000/api/lstm/")
+            const res = await axios.get("http://localhost:8080/api/lstm/")
             return res.data
         },
         refetchOnWindowFocus: false,

@@ -25,9 +25,26 @@ in order to apply foresight.
 
 - :trident: clean architecture
 - :book: standard python project layout 
+- :zap: Stack: Django, react, scikit-learn, tensorflow. 
 - :card_file_box: Fully included web app with neural model based on tensorflow and sklearn
 
-## HOWTO
+## The main technology stack:
+
+- :art: React
+- :rocket: Django
+- :white_check_mark: sqlite
+- :lipstick: scikit-learn
+- :closed_lock_with_key: tensorflow, keras
+- :bookmark: docker, docker-compose
+
+## HOWTO RUN
+The project is in docker-compose, so...
+```
+git clone https://github.com/Simongolovinskiy/currency-converter.git
+```
+```
+docker-compose up --build
+```
 
 ## The example of our classification model is on screenshot(plot with data)
 
