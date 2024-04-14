@@ -6,5 +6,79 @@
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 50px;
+}
+
+.paginationBullets{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.paginationBulletItem{
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: aquamarine;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid aquamarine;
+    transition: all 0.3s ease;
+}
+
+.paginationBulletItem:hover{
+    background-color: rgb(0, 255, 170);
+}
+
+.activePage{
+    background-color: rgb(0, 255, 170);
+    border: 1px solid black;
+}
+
+.threat{
+    border: 1px solid red;
+}
+
+
+.rangeInput{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.rangeInput > input{
+    width: 100%;
+}
+
+.inputNumber{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0 20px;
+    gap: 20px;
+    font-weight: 600;
+    border: 1px solid black;
+
+}
+
+.inputNumber > input{
+    width: 100%;
+    outline: none;
+
 }

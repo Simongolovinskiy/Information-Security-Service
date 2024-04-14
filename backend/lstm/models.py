@@ -2,6 +2,7 @@ from django.db import models
 
 
 class LSTM_Neural_Model(models.Model):
+    is_threat = models.CharField(max_length=255)
     duration = models.CharField(max_length=255)
     protocol_type = models.CharField(max_length=255)
     service = models.CharField(max_length=255)
