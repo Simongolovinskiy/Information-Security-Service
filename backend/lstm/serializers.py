@@ -13,3 +13,11 @@ class LSTMCreateSerializerRead(serializers.ModelSerializer):
     class Meta:
         model = LSTM_Neural_Model
         exclude = ("id",)
+
+
+class LSTMEmailSerializer(serializers.Serializer):
+    emails = serializers.ListSerializer(child=serializers.EmailField())
+    lstm_data = LSTMCreateSerializerRead()
+
+    class Meta:
+        fields = ("emails", "lstm_data")
