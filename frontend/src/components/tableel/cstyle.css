@@ -1,0 +1,19 @@
+.bad > p{
+    background-color: red;
+    width: fit-content;
+    padding: 5px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+}
+
+.good > p{
+    background-color: greenyellow ;
+    width: fit-content;
+    padding: 5px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+}

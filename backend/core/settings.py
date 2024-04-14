@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 
     # third-party
     "rest_framework",
@@ -59,6 +60,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -141,9 +143,6 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
-# Email
-
-EMAIL_LOGIN = env.str("EMAIL_LOGIN")
-EMAIL_PASSWORD = env.str("EMAIL_PASSWORD")
-SMTP_HOST = env.str("SMTP_HOST")
-SMTP_PORT = env.str("SMTP_PORT")
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+]
