@@ -16,6 +16,6 @@ services:
     build:
       context: ./frontend
     ports:
-      - "6666:6666"
+      - "3000:3000"
     volumes:
       - ./frontend:/app

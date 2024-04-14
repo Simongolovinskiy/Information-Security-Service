@@ -43,7 +43,7 @@ The project is in docker-compose, so...
 git clone https://github.com/Simongolovinskiy/currency-converter.git
 ```
 ```
-docker-compose up --build
+docker-compose up -d
 ```
 
 ## The example of our classification model is on screenshot(plot with data)

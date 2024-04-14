@@ -350,7 +350,7 @@ def run():
             break
         data = data_set_for_send.iloc[index].to_dict()
         print(data)
-        req = requests.post("http://localhost:8000/api/lstm/", data=data)
+        req = requests.post("http://localhost:8080/api/lstm/", data=data)
         print(req.status_code, req.json(), f"Наш {index} POST запрос")
 
 
